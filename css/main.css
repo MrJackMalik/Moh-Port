@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 2rem;
+  background: rgb(2, 71, 175);
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 0 1rem;
+}
+
+.hero {
+  padding-top: 5rem;
+}
+.hero h2 {
+  padding: 2rem;
+}
